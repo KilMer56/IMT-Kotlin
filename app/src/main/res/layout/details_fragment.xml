@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/book_details_fragment">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/book_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dip"/>
+
+        <ImageView
+            android:id="@+id/book_details_cover"
+            android:layout_centerHorizontal="true"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"/>
+
+        <TextView
+            android:id="@+id/book_detail_price"
+            android:layout_below="@id/book_details_cover"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <TextView
+            android:ems="10"
+            android:gravity="start|top"
+            android:id="@+id/book_details_description"
+            android:layout_below="@id/book_detail_price"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent" />
+
+    </RelativeLayout>
+
+</ScrollView>
